@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class changediner : MonoBehaviour
+public class changebedroom : MonoBehaviour
 {
     // Start is called before the first frame update
     private void OnMouseDown()
