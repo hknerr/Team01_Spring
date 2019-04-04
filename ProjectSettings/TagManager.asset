@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fire
   layers:
   - Default
   - TransparentFX
@@ -41,9 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Middle
+  - name: Bottom
     uniqueID: 329307071
     locked: 0
-  - name: Top
+  - name: Middle
     uniqueID: 3626543403
+    locked: 0
+  - name: Top
+    uniqueID: 3356862857
     locked: 0
