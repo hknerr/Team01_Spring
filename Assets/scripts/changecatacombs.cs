@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-//Christa
-public class changecellar : MonoBehaviour
+//Nick
+public class changecatacombs : MonoBehaviour
 {
     // Start is called before the first frame update
     private void OnMouseDown()
     {
-        SceneManager.LoadScene("cellar");
+        SceneManager.LoadScene("catacombs");
     }
 
     // Update is called once per frame
