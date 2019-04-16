@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class roomchange : MonoBehaviour
+public class changedungeon : MonoBehaviour
 {
     // Start is called before the first frame update
     private void OnMouseDown()
@@ -14,6 +13,6 @@ public class roomchange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

@@ -204,16 +204,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631431088}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.008022791, w: 0.9999679}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1857196, y: 1.1857196, z: 1.1857196}
   m_Children: []
   m_Father: {fileID: 1924755025}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.919}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 327.1, y: 40.344}
+  m_AnchoredPosition: {x: 415, y: 60}
   m_SizeDelta: {x: 766.32, y: 143.69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &631431090
@@ -255,7 +255,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 631431091}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &631431091
@@ -368,8 +379,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057698557}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.004, y: 0.005, z: 0}
-  m_LocalScale: {x: 1.113, y: 0.925, z: 1}
+  m_LocalPosition: {x: 570, y: 270, z: 0}
+  m_LocalScale: {x: 60.270546, y: 50.090076, z: 54.151432}
   m_Children:
   - {fileID: 1924755025}
   m_Father: {fileID: 0}
@@ -403,14 +414,14 @@ RectTransform:
   m_GameObject: {fileID: 1183176920}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2377822, y: 1.2377822, z: 1.2377822}
   m_Children: []
   m_Father: {fileID: 1924755025}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 317, y: 155}
+  m_AnchoredPosition: {x: 401, y: 200}
   m_SizeDelta: {x: 733.29, y: 137.49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1183176922
@@ -452,7 +463,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1183176923}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1183176923
@@ -589,16 +611,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659400925}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.01176936, w: 0.99993074}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2065318, y: 1.2065318, z: 1.2065318}
   m_Children: []
   m_Father: {fileID: 1924755025}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.3490001}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 327.73, y: -61.1}
+  m_AnchoredPosition: {x: 413, y: -76}
   m_SizeDelta: {x: 754.75, y: 141.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1659400927
@@ -755,7 +777,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 265.9132
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -779,7 +801,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712312425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 574, y: 267, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
