@@ -9,42 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: bdd9f8daa67f462498287b92c725b4b3
   - enabled: 1
-    path: Assets/Scenes/dungeon.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/bathroom.unity
-    guid: de649633ddaa414448438c13f5ce0def
-  - enabled: 1
-    path: Assets/Scenes/bedroom.unity
-    guid: b59a5cb0c72843b41b090fd5ad5efea8
-  - enabled: 1
-    path: Assets/Scenes/catacombs.unity
-    guid: 491aee09898dc194fa5e4d1f9efbe871
-  - enabled: 1
-    path: Assets/Scenes/cellar.unity
-    guid: b7d5539a208413940979bd52e0551dde
-  - enabled: 1
-    path: Assets/Scenes/courtyard.unity
-    guid: 96990019ec0298449a7d5fb93e2ec9d6
-  - enabled: 1
-    path: Assets/Scenes/diner.unity
-    guid: a511fe7d37732974fafd2b49f7e46e6c
-  - enabled: 1
-    path: Assets/Scenes/kitchen.unity
-    guid: f2021a73e1a8d6f488b7bab072e9e396
-  - enabled: 1
-    path: Assets/Scenes/library.unity
-    guid: 52555262d03f1f543bff780631b68be0
-  - enabled: 1
-    path: Assets/Scenes/storage.unity
-    guid: cd53568126c98c34bb5e128bf7d52d11
-  - enabled: 1
-    path: Assets/Scenes/Win Screen.unity
-    guid: 1940165b3ced6d44f921bd827dbb972b
-  - enabled: 1
     path: Assets/Scenes/Story.unity
     guid: 3ac30be5d85950845af622185b85cb68
   - enabled: 1
