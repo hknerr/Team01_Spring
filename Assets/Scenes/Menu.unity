@@ -257,7 +257,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 2a86d5687be73e44ba71439f60b48220, type: 3}
+      - m_Target: {fileID: 11500000, guid: 770ef082a77ad9e46bc69316387e514a, type: 3}
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 631431088}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a86d5687be73e44ba71439f60b48220, type: 3}
+  m_Script: {fileID: 11500000, guid: 770ef082a77ad9e46bc69316387e514a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1057698557
@@ -411,6 +411,7 @@ GameObject:
   - component: {fileID: 1183176924}
   - component: {fileID: 1183176923}
   - component: {fileID: 1183176922}
+  - component: {fileID: 1183176925}
   m_Layer: 5
   m_Name: start
   m_TagString: Untagged
@@ -477,17 +478,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1183176925}
+        m_MethodName: GoToStory
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Story
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1183176923
@@ -527,6 +528,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1183176920}
   m_CullTransparentMesh: 0
+--- !u!114 &1183176925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183176920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 770ef082a77ad9e46bc69316387e514a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1396027650
 GameObject:
   m_ObjectHideFlags: 0
