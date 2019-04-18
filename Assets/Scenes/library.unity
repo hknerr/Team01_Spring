@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 286244912}
   m_Layer: 0
   m_Name: ShaggyRogers
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 423926441}
   m_Layer: 0
   m_Name: i-8
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 450437285}
   m_Layer: 0
   m_Name: book
-  m_TagString: Untagged
+  m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 670229203}
   m_Layer: 0
   m_Name: Jiggle_Billy
-  m_TagString: Untagged
+  m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 909582765}
   m_Layer: 0
   m_Name: chair
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -519,7 +519,7 @@ GameObject:
   - component: {fileID: 1037342800}
   m_Layer: 0
   m_Name: pen
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -677,7 +677,7 @@ GameObject:
   - component: {fileID: 1360583929}
   m_Layer: 0
   m_Name: donkeykong
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -756,7 +756,7 @@ GameObject:
   - component: {fileID: 1367447758}
   m_Layer: 0
   m_Name: Midway_Princess_Full
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1115,7 +1115,7 @@ GameObject:
   - component: {fileID: 2015768676}
   m_Layer: 0
   m_Name: lamp
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
