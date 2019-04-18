@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 //John Hangen
 //This is the code for clicking on the start button and beginning the process of playing the game.
-public class Play : MonoBehaviour
+public class Help : MonoBehaviour
 {
 
-    public void GoToStory(string scene)
+    public void GoToHelp(string scene)
     {
         SceneManager.LoadScene(scene);
     }
