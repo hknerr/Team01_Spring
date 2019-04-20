@@ -280,7 +280,6 @@ GameObject:
   m_Component:
   - component: {fileID: 235349500}
   - component: {fileID: 235349499}
-  - component: {fileID: 235349498}
   - component: {fileID: 235349497}
   m_Layer: 0
   m_Name: courtyard door
@@ -299,18 +298,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 510b8b0dc338abe45bab532147bb9e65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &235349498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235349496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ee471cf8af23b746a285856947250fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &235349499
@@ -701,7 +688,6 @@ GameObject:
   m_Component:
   - component: {fileID: 783002834}
   - component: {fileID: 783002833}
-  - component: {fileID: 783002832}
   - component: {fileID: 783002831}
   m_Layer: 0
   m_Name: kitchen door
@@ -720,18 +706,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf5db671769af344abfb457d02c32510, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &783002832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 783002830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ee471cf8af23b746a285856947250fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &783002833
@@ -806,7 +780,6 @@ GameObject:
   m_Component:
   - component: {fileID: 896726929}
   - component: {fileID: 896726928}
-  - component: {fileID: 896726927}
   - component: {fileID: 896726926}
   m_Layer: 0
   m_Name: library door
@@ -825,18 +798,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 548ab7e8e9c81df4994d0eb01e01f663, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &896726927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896726925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ee471cf8af23b746a285856947250fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &896726928
@@ -1625,7 +1586,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2094595693}
   - component: {fileID: 2094595692}
-  - component: {fileID: 2094595691}
   - component: {fileID: 2094595690}
   m_Layer: 0
   m_Name: bathroom door
@@ -1644,18 +1604,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48c96e9d1187ca0419cf4dd2f5c0edd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2094595691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2094595689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ee471cf8af23b746a285856947250fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &2094595692
