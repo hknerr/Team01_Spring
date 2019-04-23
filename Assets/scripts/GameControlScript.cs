@@ -37,16 +37,16 @@ public class GameControlScript : MonoBehaviour
     // this is the 2D array of the room map
     public int[,] roomGridArray =
        {
-            {2,4,3,5 },
-            {7,1,0,0 },
-            {0,0,0,1 },
-            {1,0,0,6 },
-            {0,0,1,0 },
-            {0,0,4,0 },
-            {0,2,8,0 },
-            {9,10,0,7 },
-            {0,8,0,0 },
-            {8,0,0,0 }
+            {4,0,0,0 }, //dungeon
+            {0,0,3,5 },//catacombs
+            {0,0,6,4 },//wine cellar
+            {0,0,5,0 },//storage cellar
+            {0,5,8,0 },//kitchen
+            {12,7,9,10 },//diner hall
+            {0,0,0,8 },//courtyard
+            {11,0,8,13 },//library
+            {0,10,12,0 },//bedroom
+            {0,8,0,11 }//bathroom
         };
     //this is the info presented to the player as they navigate rooms
     public string[] roomInfo =

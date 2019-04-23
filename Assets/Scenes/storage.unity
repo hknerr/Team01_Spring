@@ -644,7 +644,7 @@ PrefabInstance:
     - target: {fileID: 7500959857025758124, guid: f37b66dff889bbe40ac19c97d6773674,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 7500959857025758124, guid: f37b66dff889bbe40ac19c97d6773674,
         type: 3}
@@ -1539,72 +1539,75 @@ MonoBehaviour:
   theInventoryItem: Inventory
   numToString: 
   addedItem: 0
---- !u!1 &1896991199
-GameObject:
+--- !u!1001 &1860562407
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1896991200}
-  - component: {fileID: 1896991201}
-  m_Layer: 0
-  m_Name: GameController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1896991200
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896991199}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.010000229, y: 3.32, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1896991201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896991199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66456c0f17a61ac4986b08db4eee21c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GameOver: 0
-  Row: 0
-  Col: 0
-  InventoryList: []
-  InventoryUsed: []
-  roomInfo:
-  - 'You awaken and find yourself on the ground in a place you have never seen before.
-    The light is dim but you can make out 2 doors. One is in front of you and one
-    is behind you. The walls of the room are red. To try to get your bearings, you
-    pull out your trusty compass from your pocket. You see that you are facing north.
-    You need to find out where you are in hopes of finding your way home.  What will
-    you do? '
-  - This room is green.
-  - This room is yellow.
-  - This room is grey.
-  - This room is too dark and you cannot see the color of the room. You feel around
-    hoping to find a way out.
-  - This room is blue.
-  - This room is orange.
-  - This room is black.
-  - This room is fuschia.
-  - This room is lavender. There is a panel that you cannot seem to open. Perhaps
-    a wrench would help.
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 475253010237838121, guid: f07c45e5850082149a521f7cc2e5c472,
+        type: 3}
+      propertyPath: m_Name
+      value: GameController
+      objectReference: {fileID: 0}
+    - target: {fileID: 475253010237838119, guid: f07c45e5850082149a521f7cc2e5c472,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 453
+      objectReference: {fileID: 0}
+    - target: {fileID: 475253010237838119, guid: f07c45e5850082149a521f7cc2e5c472,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 159.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 475253010237838119, guid: f07c45e5850082149a521f7cc2e5c472,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475253010237838119, guid: f07c45e5850082149a521f7cc2e5c472,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475253010237838119, guid: f07c45e5850082149a521f7cc2e5c472,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475253010237838119, guid: f07c45e5850082149a521f7cc2e5c472,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475253010237838119, guid: f07c45e5850082149a521f7cc2e5c472,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475253010237838119, guid: f07c45e5850082149a521f7cc2e5c472,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 475253010237838119, guid: f07c45e5850082149a521f7cc2e5c472,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475253010237838119, guid: f07c45e5850082149a521f7cc2e5c472,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475253010237838119, guid: f07c45e5850082149a521f7cc2e5c472,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f07c45e5850082149a521f7cc2e5c472, type: 3}
 --- !u!1 &1931365787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,7 +1662,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2101072673
 GameObject:

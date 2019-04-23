@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/bathroom.unity
     guid: de649633ddaa414448438c13f5ce0def
+  - enabled: 1
+    path: Assets/Scenes/Win Screen.unity
+    guid: 1940165b3ced6d44f921bd827dbb972b
   m_configObjects: {}
