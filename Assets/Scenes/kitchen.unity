@@ -876,6 +876,7 @@ MonoBehaviour:
   theInventoryItem: Inventory
   numToString: 
   addedItem: 0
+  invposition: 0
 --- !u!61 &272471555
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1838,9 +1839,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1977071483}
   - component: {fileID: 1977071482}
+  - component: {fileID: 1977071485}
+  - component: {fileID: 1977071484}
   m_Layer: 0
   m_Name: wrench
-  m_TagString: Untagged
+  m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1907,3 +1910,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1977071484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977071481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f65c2448333e48047a8464deee508483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theGameController: {fileID: 0}
+  theControllerScript: {fileID: 0}
+  myText: {fileID: 0}
+  newItem: {fileID: 0}
+  myGameObject: {fileID: 0}
+  invGameObj: {fileID: 0}
+  theInventoryItem: Inventory
+  numToString: 
+  addedItem: 0
+  invposition: 0
+--- !u!61 &1977071485
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977071481}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.8546206, y: 0.45318127}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 17.73, y: 8.87}
+    newSize: {x: 17.73, y: 8.87}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.34074992, y: 0.5857531}
+  m_EdgeRadius: 0
