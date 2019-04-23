@@ -281,7 +281,6 @@ GameObject:
   - component: {fileID: 235349500}
   - component: {fileID: 235349499}
   - component: {fileID: 235349497}
-  - component: {fileID: 235349498}
   m_Layer: 0
   m_Name: courtyard door
   m_TagString: Untagged
@@ -301,32 +300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 510b8b0dc338abe45bab532147bb9e65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &235349498
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235349496}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9, y: 9}
-    newSize: {x: 9, y: 9}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 9, y: 9}
-  m_EdgeRadius: 0
 --- !u!212 &235349499
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -716,7 +689,6 @@ GameObject:
   - component: {fileID: 783002834}
   - component: {fileID: 783002833}
   - component: {fileID: 783002831}
-  - component: {fileID: 783002832}
   m_Layer: 0
   m_Name: kitchen door
   m_TagString: Untagged
@@ -736,32 +708,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf5db671769af344abfb457d02c32510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &783002832
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 783002830}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9, y: 9}
-    newSize: {x: 9, y: 9}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 9, y: 9}
-  m_EdgeRadius: 0
 --- !u!212 &783002833
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -835,7 +781,6 @@ GameObject:
   - component: {fileID: 896726929}
   - component: {fileID: 896726928}
   - component: {fileID: 896726926}
-  - component: {fileID: 896726927}
   m_Layer: 0
   m_Name: library door
   m_TagString: Untagged
@@ -855,32 +800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 548ab7e8e9c81df4994d0eb01e01f663, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &896726927
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896726925}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9, y: 9}
-    newSize: {x: 9, y: 9}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 9, y: 9}
-  m_EdgeRadius: 0
 --- !u!212 &896726928
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1668,7 +1587,6 @@ GameObject:
   - component: {fileID: 2094595693}
   - component: {fileID: 2094595692}
   - component: {fileID: 2094595690}
-  - component: {fileID: 2094595691}
   m_Layer: 0
   m_Name: bathroom door
   m_TagString: Untagged
@@ -1688,32 +1606,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c96e9d1187ca0419cf4dd2f5c0edd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &2094595691
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2094595689}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9, y: 9}
-    newSize: {x: 9, y: 9}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 9, y: 9}
-  m_EdgeRadius: 0
 --- !u!212 &2094595692
 SpriteRenderer:
   m_ObjectHideFlags: 0
