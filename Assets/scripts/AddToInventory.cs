@@ -14,6 +14,7 @@ public class AddToInventory : MonoBehaviour
     public string theInventoryItem = "Inventory";
     public string numToString;
     public int addedItem;
+    public int invposition = 0;
 
     private void OnMouseDown()
     {
@@ -28,8 +29,8 @@ public class AddToInventory : MonoBehaviour
             
             Destroy(gameObject);
             
-
-            invGameObj = GameObject.Find("Canvas/Vertical Panel/Inventory1");
+            
+            invGameObj = GameObject.Find("Canvas/Vertical Panel/Inventory" + invposition);
             newItem = invGameObj.GetComponent<Text>();
             newItem.text = this.name;
             
