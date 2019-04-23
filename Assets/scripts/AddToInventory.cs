@@ -7,7 +7,6 @@ public class AddToInventory : MonoBehaviour
 {
     public GameObject theGameController;
     public GameControlScript theControllerScript;
-    public Text myText;
     public Text newItem;
     public GameObject myGameObject;
     public GameObject invGameObj;
