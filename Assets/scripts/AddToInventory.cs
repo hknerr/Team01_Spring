@@ -20,13 +20,14 @@ public class AddToInventory : MonoBehaviour
 
         if (this.tag == "I")
         {
-            
-            
-            Destroy(gameObject);
-
-
 
             theControllerScript.invposition += 1;
+            Destroy(gameObject);
+            theControllerScript.ItemsinInventory[theControllerScript.invposition - 1] = this.name;
+
+
+
+
             Debug.Log("invposition = " + theControllerScript.invposition);
             invGameObj = GameObject.Find("Canvas/Vertical Panel/Inventory" + theControllerScript.invposition);
             newItem = invGameObj.GetComponent<Text>();
