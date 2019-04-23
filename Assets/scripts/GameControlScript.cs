@@ -12,7 +12,7 @@ public class GameControlScript : MonoBehaviour
 
     public bool GameOver = false;
 
-
+    public int invposition = 0;
     
     void Awake()
     {

@@ -11,12 +11,11 @@ public class AddToInventory : MonoBehaviour
     public Text newItem;
     public GameObject myGameObject;
     public GameObject invGameObj;
-    public int invposition = 0;
-
+    
     private void OnMouseDown()
     {
-        //theGameController = GameObject.Find("GameController");
-        //theControllerScript = theGameController.GetComponent<GameControlScript>();
+        theGameController = GameObject.Find("GameController");
+        theControllerScript = theGameController.GetComponent<GameControlScript>();
         
 
         if (this.tag == "I")
@@ -25,9 +24,11 @@ public class AddToInventory : MonoBehaviour
             
             Destroy(gameObject);
 
-            invposition += 1;
-            Debug.Log("invposition = " + invposition);
-            invGameObj = GameObject.Find("Canvas/Vertical Panel/Inventory" + invposition);
+
+
+            theControllerScript.invposition += 1;
+            Debug.Log("invposition = " + theControllerScript.invposition);
+            invGameObj = GameObject.Find("Canvas/Vertical Panel/Inventory" + theControllerScript.invposition);
             newItem = invGameObj.GetComponent<Text>();
             newItem.text = this.name;
             
