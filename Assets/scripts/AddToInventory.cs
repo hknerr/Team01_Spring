@@ -18,7 +18,7 @@ public class AddToInventory : MonoBehaviour
         theControllerScript = theGameController.GetComponent<GameControlScript>();
         
 
-        if (this.tag == "I")
+        if (this.tag == "I" & theControllerScript.invposition <10 )
         {
 
             theControllerScript.invposition += 1;
