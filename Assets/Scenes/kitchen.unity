@@ -543,6 +543,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 134515195842521939, guid: f37b66dff889bbe40ac19c97d6773674,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7500959857069874267, guid: f37b66dff889bbe40ac19c97d6773674,
         type: 3}
       propertyPath: m_FontData.m_FontSize
@@ -1245,6 +1250,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &862099938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985782146672285508, guid: f37b66dff889bbe40ac19c97d6773674,
+    type: 3}
+  m_PrefabInstance: {fileID: 195771062}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &862099940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862099938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d3f76c0effdcf44834cd4e6b1cfc8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableUI: 1
 --- !u!1 &866826000
 GameObject:
   m_ObjectHideFlags: 0
