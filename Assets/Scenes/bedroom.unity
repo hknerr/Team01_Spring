@@ -369,7 +369,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2164cdab4ae59d8448cce57e587b9dd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d32a56a6b55eb53469e03101513a17da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -388,8 +388,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211122468}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.14, y: -2.32, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -6.14, y: -2.35, z: 0}
+  m_LocalScale: {x: 0.279, y: 0.345, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -548,7 +548,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666630777}
   m_LocalRotation: {x: -0.0030116711, y: 0.13270418, z: -0.02248801, w: 0.990896}
-  m_LocalPosition: {x: 9.83, y: -1.31, z: 0}
+  m_LocalPosition: {x: 9.34, y: -1.26, z: 0.12}
   m_LocalScale: {x: 0.226, y: 0.214662, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -679,7 +679,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700338715}
   m_LocalRotation: {x: -0, y: -0.1685089, z: -0, w: 0.98570013}
-  m_LocalPosition: {x: -9.61, y: -1.57, z: 0}
+  m_LocalPosition: {x: -9.23, y: -1.52, z: 0.12}
   m_LocalScale: {x: 0.22846687, y: 0.22692749, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1069,7 +1069,7 @@ GameObject:
   - component: {fileID: 971889933}
   - component: {fileID: 971889932}
   m_Layer: 0
-  m_Name: statue
+  m_Name: Bedroom statue
   m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1157,8 +1157,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971889931}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.54, y: -1.67, z: 0}
-  m_LocalScale: {x: 0.052, y: 0.082, z: 1}
+  m_LocalPosition: {x: 1.21, y: -1.44, z: 0}
+  m_LocalScale: {x: 0.079404, y: 0.09266, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
