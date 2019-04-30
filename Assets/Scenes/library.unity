@@ -715,7 +715,7 @@ GameObject:
   - component: {fileID: 629727136}
   - component: {fileID: 629727135}
   m_Layer: 0
-  m_Name: book
+  m_Name: Monster Girl Doctor Book 1
   m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -777,7 +777,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629727132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.232, y: -2.778, z: 0}
+  m_LocalPosition: {x: 3.02, y: -2.41, z: 0}
   m_LocalScale: {x: 0.27067402, y: 0.28555998, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -917,6 +917,7 @@ GameObject:
   - component: {fileID: 887677164}
   - component: {fileID: 887677163}
   - component: {fileID: 887677165}
+  - component: {fileID: 887677166}
   m_Layer: 0
   m_Name: vault door
   m_TagString: Untagged
@@ -1012,6 +1013,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10, y: 9.9}
   m_EdgeRadius: 0
+--- !u!114 &887677166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887677162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ba59d02f5fa2940952200afa3aa4e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &909582764
 GameObject:
   m_ObjectHideFlags: 0
@@ -1085,8 +1098,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909582764}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.519, y: -2.885, z: 0}
-  m_LocalScale: {x: 0.21347566, y: 0.25867355, z: 1}
+  m_LocalPosition: {x: 3.648, y: -3.014, z: 0}
+  m_LocalScale: {x: 0.18764511, y: 0.23280619, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5

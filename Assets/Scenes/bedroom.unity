@@ -405,7 +405,7 @@ GameObject:
   - component: {fileID: 633626847}
   - component: {fileID: 633626846}
   m_Layer: 0
-  m_Name: book
+  m_Name: book Of Castles
   m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -467,7 +467,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633626845}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.17, y: -0.24, z: 0}
+  m_LocalPosition: {x: 5.23, y: -0.09, z: 0}
   m_LocalScale: {x: 0.15287401, y: 0.189225, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -972,8 +972,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 927809562}
   m_LocalRotation: {x: -0, y: -0, z: 0.02690181, w: 0.99963814}
-  m_LocalPosition: {x: 3.41, y: 2.42, z: 0}
-  m_LocalScale: {x: 1.12, y: 1.018, z: 1}
+  m_LocalPosition: {x: 3.06, y: 2.81, z: 0}
+  m_LocalScale: {x: 0.824544, y: 0.7717743, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
@@ -1255,7 +1255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995746086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.35, y: -0.61, z: 0}
+  m_LocalPosition: {x: 2.13, y: -3.24, z: 0}
   m_LocalScale: {x: 0.106, y: 0.201, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1492,8 +1492,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411878804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.09, y: 0.68, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 6.05, y: 0.97, z: 0}
+  m_LocalScale: {x: 0.751, y: 0.783, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
