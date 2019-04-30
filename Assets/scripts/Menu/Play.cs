@@ -9,11 +9,11 @@ public class Play : MonoBehaviour
 
     public void GoToStory(string scene)
     {
-        SceneManager.LoadScene(scene);
+        SceneManager.LoadScene("story");
     }
 
     public void ReturnToMenu(string scene)
     {
-        SceneManager.LoadScene(scene);
+        SceneManager.LoadScene("story");
     }
 }
