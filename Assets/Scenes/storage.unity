@@ -187,7 +187,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97790450}
   m_LocalRotation: {x: 0.0016414372, y: 0.19494607, z: -0.008258105, w: 0.9807779}
-  m_LocalPosition: {x: 9.78, y: -1.24, z: -0.09}
+  m_LocalPosition: {x: 7.03, y: -0.87, z: 1.05}
   m_LocalScale: {x: 0.27775243, y: 0.21820357, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1270,19 +1270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3350f3ab1aa6ddb4dbef797e09d2c751, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theGameController: {fileID: 0}
-  theControllerScript: {fileID: 0}
-  theInventoryItem: 
-  numToString: 
-  theItemName: 
-  newItem: {fileID: 0}
-  invGameObj: {fileID: 0}
-  adjustNum: 0
-  totItemsNeeded: 0
-  totalItemsFound: 0
-  puzzlesSolved: 0
-  myLocation: 0
-  theCurrentScene: 
 --- !u!4 &1931365789
 Transform:
   m_ObjectHideFlags: 0
