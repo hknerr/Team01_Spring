@@ -26,6 +26,9 @@ public class BathroomPuzzle : MonoBehaviour
             {
                 newItem.text = "";
                 this.GetComponent<AudioSource>().Play();
+
+                
+
             }
 
             else
