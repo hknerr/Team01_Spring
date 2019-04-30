@@ -11,14 +11,14 @@ public class AddToInventory : MonoBehaviour
     public Text newItem;
     public GameObject myGameObject;
     public GameObject invGameObj;
-    
+
     private void OnMouseDown()
     {
         theGameController = GameObject.Find("GameController");
         theControllerScript = theGameController.GetComponent<GameControlScript>();
-        
 
-        if (this.tag == "I" & theControllerScript.invposition <10 )
+
+        if (this.tag == "I" & theControllerScript.invposition < 10)
         {
 
             theControllerScript.invposition += 1;
@@ -32,11 +32,25 @@ public class AddToInventory : MonoBehaviour
             invGameObj = GameObject.Find("Canvas/Vertical Panel/Inventory" + theControllerScript.invposition);
             newItem = invGameObj.GetComponent<Text>();
             newItem.text = this.name;
-            
+
         }
+        else if (theControllerScript.invposition >= 10)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                invGameObj = GameObject.Find("Canvas/Vertical Panel/Inventory" + (i + 1));
+                newItem = invGameObj.GetComponent<Text>();
+                if (newItem.text == "")
+                {
+                    newItem.text = this.name;
+                }
+
         else
         {
-            myText.text += "\nThe " + this.name + " cannot be put in inventory";
+                myText.text += "\nThe " + this.name + " cannot be put in inventory";
+        }
+
+            }
         }
     }
 }
