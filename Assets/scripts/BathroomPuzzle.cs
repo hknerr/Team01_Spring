@@ -25,7 +25,9 @@ public class BathroomPuzzle : MonoBehaviour
             if (newItem.text == "wrench")
             {
                 newItem.text = "Inventory";
+                this.GetComponent<AudioSource>().Play();
             }
+
             else
             {
                 Debug.Log("NO WRENCH");
