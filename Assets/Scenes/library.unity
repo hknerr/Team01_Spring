@@ -478,8 +478,8 @@ GameObject:
   m_Component:
   - component: {fileID: 678273484}
   - component: {fileID: 678273483}
-  - component: {fileID: 678273485}
   - component: {fileID: 678273487}
+  - component: {fileID: 678273485}
   - component: {fileID: 678273486}
   m_Layer: 0
   m_Name: vault door
@@ -618,6 +618,7 @@ GameObject:
   - component: {fileID: 889517506}
   - component: {fileID: 889517509}
   - component: {fileID: 889517508}
+  - component: {fileID: 889517510}
   m_Layer: 0
   m_Name: Jiggle_Billy
   m_TagString: E
@@ -724,7 +725,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 56b7e53e577b3e14091db6213e5ad27e, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -809,6 +810,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &889517510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889517505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f49a09cf40ccef04fbdadfd5001579b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &909582764
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,6 +939,7 @@ GameObject:
   - component: {fileID: 1036529766}
   - component: {fileID: 1036529765}
   - component: {fileID: 1036529768}
+  - component: {fileID: 1036529769}
   - component: {fileID: 1036529767}
   m_Layer: 0
   m_Name: vuwz8ezwprp11
@@ -1118,6 +1132,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1036529769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036529764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f49a09cf40ccef04fbdadfd5001579b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1093066308
 GameObject:
   m_ObjectHideFlags: 0

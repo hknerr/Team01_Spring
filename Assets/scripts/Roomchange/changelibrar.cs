@@ -9,7 +9,7 @@ public class changelibrar : MonoBehaviour
     //easter egg room
     private void OnMouseDown()
     {
-        SceneManager.LoadScene("library");
+        SceneManager.LoadScene("librar");
     }
 
     // Update is called once per frame
