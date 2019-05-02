@@ -35,7 +35,7 @@ public class BathroomPuzzle : MonoBehaviour
                 GameObject.Destroy(itemToDelete);
 
 
-                theStatue = GameObject.Find("bath statue");
+                theStatue = GameObject.Find("Statue 2");
                 theStatue.transform.localPosition = new Vector2(-1.2f, -.044f);
             }
 
