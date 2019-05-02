@@ -11,6 +11,7 @@ public class Bedroompuzzle : MonoBehaviour
     public Text newItem;
     public GameObject myGameObject;
     public GameObject invGameObj;
+    public GameObject itemToDelete;
 
 
     private void OnMouseDown()
@@ -27,6 +28,9 @@ public class Bedroompuzzle : MonoBehaviour
                 theControllerScript.deletePosition += 1;
                 newItem.text = "";
                 theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "screw driver";
+
+                itemToDelete = GameObject.Find("Statue 3");
+                GameObject.Destroy(itemToDelete);
             }
 
 
