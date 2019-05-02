@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class changelibrary : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // changes to library scene attached to library door
     private void OnMouseDown()
     {
         SceneManager.LoadScene("library");

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class changedungeon : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Changes to dungeon scene attached to dungeon door and story page
     private void OnMouseDown()
     {
         SceneManager.LoadScene("dungeon");

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class changeCourtyard : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // changes to courtyard scene attached too courtyard door
     private void OnMouseDown()
     {
         SceneManager.LoadScene("courtyard");

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 //Nick
 public class changecatacombs : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // changes door to catacombs attached to catacombs door
     private void OnMouseDown()
     {
         SceneManager.LoadScene("catacombs");
