@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 // John Hangen
+//This code allows the player to leave the storage scene and enter the cellar scene.
+//In the storage scene its attached to door object.
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
