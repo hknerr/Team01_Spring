@@ -25,13 +25,20 @@ public class KitchenLock : MonoBehaviour
             {
                 theControllerScript.deletePosition += 1;
                 newItem.text = null;
-                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "gold key";
+                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "kitchen door locked";
                 Destroy(gameObject);
             }
 
             else
             {
                 Debug.Log("nope");
+            }
+        }
+            for (int i = 0; i < 10; i++)
+        {
+            if (theControllerScript.ItemsinInventory[i] == "gold key")
+            {
+                theControllerScript.ItemsinInventory[i] = null;
             }
         }
     }

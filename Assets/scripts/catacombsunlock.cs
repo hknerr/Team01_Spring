@@ -29,6 +29,7 @@ public class catacombsunlock : MonoBehaviour
             {
                 theControllerScript.deletePosition += 1;
                 newItem.text = "";
+                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "cellar door key";
                 Destroy(gameObject);
             }
 
