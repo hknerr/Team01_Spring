@@ -11,12 +11,15 @@ public class BathroomPuzzle : MonoBehaviour
     public Text newItem;
     public GameObject myGameObject;
     public GameObject invGameObj;
-
+    public GameObject itemToDelete;
+    public GameObject theBathtub;
+    public disableStatue toggleStatue;
 
     private void OnMouseDown()
     {
         theGameController = GameObject.Find("GameController");
         theControllerScript = theGameController.GetComponent<GameControlScript>();
+
 
         for (int i = 0; i < 10; i++)
         {
@@ -24,7 +27,12 @@ public class BathroomPuzzle : MonoBehaviour
             newItem = invGameObj.GetComponent<Text>();
             if (newItem.text == "wrench")
             {
+                theControllerScript.deletePosition += 1;
                 newItem.text = "";
+                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "wrench";
+
+                itemToDelete = GameObject.Find("bathtub");
+                GameObject.Destroy(itemToDelete);
             }
 
             else
@@ -32,7 +40,6 @@ public class BathroomPuzzle : MonoBehaviour
                 Debug.Log("NO WRENCH");
             }
             
-
         }
         for (int i = 0; i < 10; i++)
         {

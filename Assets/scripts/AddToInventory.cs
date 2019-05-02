@@ -22,9 +22,10 @@ public class AddToInventory : MonoBehaviour
         {
 
             theControllerScript.invposition += 1;
+            theControllerScript.deletePosition += 1;
             Destroy(gameObject);
             theControllerScript.ItemsinInventory[theControllerScript.invposition - 1] = this.name;
-
+            theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = this.name;
 
 
 

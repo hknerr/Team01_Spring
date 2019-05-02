@@ -13,12 +13,13 @@ public class GameControlScript : MonoBehaviour
     public bool GameOver = false;
 
     public int invposition = 0;
+    public int deletePosition = 0;
 
     public string[] ItemsinInventory = new string[10];
-        
+    public string[] ItemsToDelete = new string[15];
 
- 
-        
+
+
     void Awake()
     {
         //if the instance reference has not beem set yet

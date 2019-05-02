@@ -15,7 +15,6 @@ public class Bedroompuzzle : MonoBehaviour
 
     private void OnMouseDown()
     {
-
         theGameController = GameObject.Find("GameController");
         theControllerScript = theGameController.GetComponent<GameControlScript>();
 
@@ -25,13 +24,25 @@ public class Bedroompuzzle : MonoBehaviour
             newItem = invGameObj.GetComponent<Text>();
             if (newItem.text == "screw driver")
             {
+                theControllerScript.deletePosition += 1;
                 newItem.text = "";
-            }
-            else
-            {
-                Debug.Log("NO SCREW DRIVER");
+                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "screw driver";
             }
 
+
+            else
+            {
+                Debug.Log("NO SCREWDRIVER");
+            }
+
+
+        }
+        for (int i = 0; i < 10; i++)
+        {
+            if (theControllerScript.ItemsinInventory[i] == "screw driver")
+            {
+                theControllerScript.ItemsinInventory[i] = "";
+            }
         }
 
     }
