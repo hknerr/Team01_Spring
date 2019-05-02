@@ -25,7 +25,7 @@ public class Bedroompuzzle : MonoBehaviour
             newItem = invGameObj.GetComponent<Text>();
             if (newItem.text == "screw driver")
             {
-                newItem.text = "Inventory";
+                newItem.text = "";
             }
             else
             {

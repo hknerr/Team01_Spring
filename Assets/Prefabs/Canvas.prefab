@@ -271,9 +271,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Inventory
-
-'
+  m_Text: 
 --- !u!1 &7500959857127241820
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,9 +350,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Inventory
-
-'
+  m_Text: 
 --- !u!1 &7500959857263962069
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,9 +429,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Inventory
-
-'
+  m_Text: 
 --- !u!1 &7500959857265262662
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,9 +508,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Inventory
-
-'
+  m_Text: 
 --- !u!1 &7500959857558559327
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,9 +668,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Inventory
-
-'
+  m_Text: 
 --- !u!1 &7500959857936865297
 GameObject:
   m_ObjectHideFlags: 0
@@ -757,9 +747,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Inventory
-
-'
+  m_Text: 
 --- !u!1 &7500959858026037961
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,9 +826,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Inventory
-
-'
+  m_Text: 
 --- !u!1 &7500959858207222856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,9 +1014,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Inventory
-
-'
+  m_Text: 
 --- !u!1 &7500959858603449120
 GameObject:
   m_ObjectHideFlags: 0
@@ -1109,9 +1093,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Inventory
-
-'
+  m_Text: 
 --- !u!1 &7500959858859117382
 GameObject:
   m_ObjectHideFlags: 0
@@ -1190,6 +1172,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Inventory
-
-'
+  m_Text: 

@@ -9,6 +9,7 @@ public class SceneChangeTracker : MonoBehaviour
     public GameControlScript theControllerScript;
     public GameObject invGameObj;
     public Text newItem;
+    public GameObject itemToDelete;
 
     void OnEnable()
     {
@@ -24,6 +25,14 @@ public class SceneChangeTracker : MonoBehaviour
 
             Debug.Log("Setting inv position" + i);
         }
+
+        for (int i = 0; i < 10; i++)
+        {
+            itemToDelete = GameObject.Find(theControllerScript.ItemsinInventory[i]);
+            GameObject.Destroy(itemToDelete);
+
+        }
+
 
     }
 }
