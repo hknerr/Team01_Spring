@@ -26,9 +26,7 @@ public class AddToInventoryStatue : MonoBehaviour
 
 
 
-            invGameObj = GameObject.Find("Statue Inv/Vertical Panel/Inventory" + theControllerScript.statueinvposition);
-            Debug.Log(GameObject.Find("Statue Inv / Vertical Panel1 / Inventory" + theControllerScript.statueinvposition));
-            Debug.Log(GameObject.Find("statue 2"));
+            invGameObj = GameObject.Find("Statue Inv/Vertical Panel/InventoryText");
             newItem = invGameObj.GetComponent<Text>();
             newItem.text = this.name;
 

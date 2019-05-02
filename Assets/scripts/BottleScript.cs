@@ -33,7 +33,13 @@ public class BottleScript : MonoBehaviour
             {
                 Debug.Log("nope");
             }
-
+        }
+        for (int i = 0; i < 10; i++)
+        {
+            if (theControllerScript.ItemsinInventory[i] == "corkscrew")
+            {
+                theControllerScript.ItemsinInventory[i] = "";
+            }
         }
     }
 }

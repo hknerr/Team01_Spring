@@ -25,7 +25,7 @@ public class DungeonPuzzle : MonoBehaviour
             {
                 theControllerScript.deletePosition += 1;
                 newItem.text = "";
-                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "lockpick";
+                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "door locked";
                 Destroy(gameObject);
             }
 
@@ -33,7 +33,13 @@ public class DungeonPuzzle : MonoBehaviour
             {
                 Debug.Log("nope");
             }
-
+        }
+        for (int i = 0; i < 10; i++)
+        {
+            if (theControllerScript.ItemsinInventory[i] == "lockpick")
+            {
+                theControllerScript.ItemsinInventory[i] = "";
+            }
         }
     }
 }

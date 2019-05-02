@@ -30,9 +30,9 @@ public class catacombpuzzle : MonoBehaviour
             newItem = invGameObj.GetComponent<Text>();
             if (newItem.text == "skull")
             {
-                theControllerScript.deletePosition += 1;
+            
                 newItem.text = "";
-                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "skull";
+                
 
                 // Show skull
                 GameObject.Find("skullhead").transform.localPosition = new Vector3(0.16f, -2.11f, 0f);

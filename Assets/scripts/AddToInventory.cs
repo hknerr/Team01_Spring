@@ -37,7 +37,13 @@ public class AddToInventory : MonoBehaviour
         }
         else
         {
-            myText.text += "\nThe " + this.name + " cannot be put in inventory";
+            for (int i = 0; i < 10; i++)
+        {
+            if (theControllerScript.ItemsinInventory[i] == "")
+            {
+                theControllerScript.ItemsinInventory[i] = this.name;
+            }
+        }
         }
     }
 }

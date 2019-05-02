@@ -17,7 +17,7 @@ public class GameControlScript : MonoBehaviour
     public int statueinvposition = 0;
 
     public string[] ItemsinInventory = new string[10];
-    public string[] ItemsToDelete = new string[15];
+    public string[] ItemsToDelete = new string[20];
     public string[] StatuesInInventory = new string[2];
 
 
