@@ -352,7 +352,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &112930482
 MonoBehaviour:
@@ -521,7 +521,7 @@ PrefabInstance:
     - target: {fileID: 5127465687434313160, guid: c082a004600bc5e47aa2600426f02734,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5127465687434313160, guid: c082a004600bc5e47aa2600426f02734,
         type: 3}
@@ -649,7 +649,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.95, y: 1.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2038500938}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -746,6 +747,7 @@ MonoBehaviour:
   myGameObject: {fileID: 0}
   invGameObj: {fileID: 0}
   itemToDelete: {fileID: 0}
+  theStatue: {fileID: 0}
 --- !u!82 &379032380
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1069,7 +1071,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &804645570
 SpriteRenderer:
@@ -1381,7 +1383,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1879566779
 GameObject:
@@ -1512,7 +1514,7 @@ PrefabInstance:
     - target: {fileID: 475253010237838119, guid: f07c45e5850082149a521f7cc2e5c472,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 475253010237838119, guid: f07c45e5850082149a521f7cc2e5c472,
         type: 3}
@@ -1642,11 +1644,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038500937}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.75, y: 1.3957479, z: 0}
+  m_LocalPosition: {x: -1.2, y: -0.044252157, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 379032376}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2038500939
 SpriteRenderer:
@@ -1790,7 +1792,7 @@ PrefabInstance:
     - target: {fileID: 7500959857025758124, guid: f37b66dff889bbe40ac19c97d6773674,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 7500959857025758124, guid: f37b66dff889bbe40ac19c97d6773674,
         type: 3}
