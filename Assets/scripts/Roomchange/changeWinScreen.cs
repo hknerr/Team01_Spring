@@ -9,7 +9,7 @@ public class changeWinScreen : MonoBehaviour
     // Start is called before the first frame update
     private void OnMouseDown()
     {
-        SceneManager.LoadScene("WinScreen");
+        SceneManager.LoadScene("Win Screen");
     }
 
     // Update is called once per frame
