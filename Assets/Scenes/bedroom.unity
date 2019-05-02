@@ -1122,6 +1122,7 @@ MonoBehaviour:
   newItem: {fileID: 0}
   myGameObject: {fileID: 0}
   invGameObj: {fileID: 0}
+  itemToDelete: {fileID: 0}
 --- !u!1 &995746086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1372,7 +1373,7 @@ GameObject:
   - component: {fileID: 1863744380}
   m_Layer: 0
   m_Name: safe
-  m_TagString: I
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
