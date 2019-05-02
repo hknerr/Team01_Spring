@@ -12,8 +12,6 @@ public class BathroomPuzzle : MonoBehaviour
     public GameObject myGameObject;
     public GameObject invGameObj;
     public GameObject itemToDelete;
-    public GameObject theBathtub;
-    public disableStatue toggleStatue;
 
     private void OnMouseDown()
     {
