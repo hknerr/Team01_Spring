@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+//Brandon Salter
+//this script is used to complete the statue puzzle in the bedroom
 public class Bedroompuzzle : MonoBehaviour
 {
     public GameObject theGameController;

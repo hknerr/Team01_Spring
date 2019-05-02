@@ -1879,10 +1879,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1338034011}
   - component: {fileID: 1338034010}
-  - component: {fileID: 1338034012}
   - component: {fileID: 1338034013}
+  - component: {fileID: 1338034012}
   m_Layer: 0
-  m_Name: door
+  m_Name: door locked
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1924,7 +1924,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a1dd24a376d18384e9e957e82bfbc3df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1944,7 +1944,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338034009}
   m_LocalRotation: {x: -0.22278774, y: -0.3569953, z: 0.11778511, w: 0.89947027}
-  m_LocalPosition: {x: -3.65, y: 1.15, z: 0.22}
+  m_LocalPosition: {x: -3.65, y: 1.15, z: -0.11}
   m_LocalScale: {x: 0.10984235, y: 0.15529187, z: 0.761005}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1963,7 +1963,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0000035762787, y: 0.40700722}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1974,7 +1974,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9, y: 9}
+  m_Size: {x: 11.0540695, y: 17.180538}
   m_EdgeRadius: 0
 --- !u!114 &1338034013
 MonoBehaviour:
@@ -1992,7 +1992,7 @@ MonoBehaviour:
   theControllerScript: {fileID: 0}
   myText: {fileID: 0}
   newItem: {fileID: 0}
-  myGameObject: {fileID: 0}
+  myGameObject: {fileID: 527161309}
   invGameObj: {fileID: 0}
 --- !u!1 &1409259876
 GameObject:
@@ -2086,7 +2086,7 @@ GameObject:
   - component: {fileID: 1465946074}
   - component: {fileID: 1465946073}
   m_Layer: 0
-  m_Name: door (1)
+  m_Name: door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2116,7 +2116,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9, y: 9}
+  m_Size: {x: 8, y: 15}
   m_EdgeRadius: 0
 --- !u!114 &1465946074
 MonoBehaviour:
@@ -2166,7 +2166,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: a1dd24a376d18384e9e957e82bfbc3df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

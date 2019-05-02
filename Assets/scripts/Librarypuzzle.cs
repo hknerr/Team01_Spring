@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+//Brandon Salter
+//this script is used to complete the final puzzle in the library
 public class Librarypuzzle : MonoBehaviour
   {
     public GameObject theGameController;
