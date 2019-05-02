@@ -814,8 +814,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 876250532}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.25, y: -4.32, z: 0}
-  m_LocalScale: {x: -0.5004958, y: 0.676, z: 1}
+  m_LocalPosition: {x: 4.309, y: -4.09, z: 0}
+  m_LocalScale: {x: 0.64658105, y: 0.676, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
@@ -2017,7 +2017,7 @@ GameObject:
   - component: {fileID: 1885805092}
   - component: {fileID: 1885805091}
   m_Layer: 0
-  m_Name: key
+  m_Name: vault key
   m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2033,7 +2033,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2085,7 +2085,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 7e4fb8faa617ba846b484fb276802878, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2105,7 +2105,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885805087}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.69, y: -3.7, z: 0}
+  m_LocalPosition: {x: 1.04, y: -1.06, z: 0}
   m_LocalScale: {x: 0.207, y: 0.253, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
