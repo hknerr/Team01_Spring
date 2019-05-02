@@ -23,22 +23,17 @@ public class Librarypuzzle : MonoBehaviour
             newItem = invGameObj.GetComponent<Text>();
             if (newItem.text == "vault key")
             {
+                theControllerScript.deletePosition += 1;
                 newItem.text = "";
+                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "vault key";
+                Destroy(gameObject);
             }
 
             else
             {
-                Debug.Log("NO VAULT KEY");
+                Debug.Log("nope");
             }
 
         }
-        for (int i = 0; i < 10; i++)
-        {
-            if (theControllerScript.ItemsinInventory[i] == "vault key")
-            {
-                theControllerScript.ItemsinInventory[i] = "";
-            }
-        }
-
     }
 }

@@ -388,7 +388,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211122468}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.14, y: -2.35, z: 0}
+  m_LocalPosition: {x: -6.88, y: -2.37, z: 0}
   m_LocalScale: {x: 0.279, y: 0.345, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -989,7 +989,6 @@ GameObject:
   - component: {fileID: 971889934}
   - component: {fileID: 971889933}
   - component: {fileID: 971889932}
-  - component: {fileID: 971889936}
   - component: {fileID: 971889935}
   m_Layer: 0
   m_Name: Statue 3
@@ -1104,25 +1103,6 @@ MonoBehaviour:
   newItem: {fileID: 0}
   myGameObject: {fileID: 0}
   invGameObj: {fileID: 0}
---- !u!114 &971889936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 971889931}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d618b5045e604a94c9dd299a59d3a5ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theGameController: {fileID: 0}
-  theControllerScript: {fileID: 0}
-  myText: {fileID: 0}
-  newItem: {fileID: 0}
-  myGameObject: {fileID: 0}
-  invGameObj: {fileID: 0}
-  itemToDelete: {fileID: 0}
 --- !u!1 &995746086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,6 +1519,7 @@ GameObject:
   - component: {fileID: 1863744379}
   - component: {fileID: 1863744378}
   - component: {fileID: 1863744380}
+  - component: {fileID: 1863744381}
   m_Layer: 0
   m_Name: safe
   m_TagString: E
@@ -1582,7 +1563,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 712fd0decc2ddf64c85f13836d7337bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1602,7 +1583,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1863744377}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.62, y: -2.02, z: 0}
+  m_LocalPosition: {x: 1.23, y: -1.26, z: 0}
   m_LocalScale: {x: 0.28064498, y: 0.26988, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1618,7 +1599,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1634,6 +1615,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.44, y: 8.69}
   m_EdgeRadius: 0
+--- !u!114 &1863744381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863744377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d618b5045e604a94c9dd299a59d3a5ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theGameController: {fileID: 0}
+  theControllerScript: {fileID: 0}
+  myText: {fileID: 0}
+  newItem: {fileID: 0}
+  myGameObject: {fileID: 0}
+  invGameObj: {fileID: 0}
+  itemToDelete: {fileID: 0}
 --- !u!1 &1894671538
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,7 +1707,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894671538}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3, y: -2.31, z: 0}
+  m_LocalPosition: {x: -2.73, y: -2.29, z: 0}
   m_LocalScale: {x: 0.386, y: 0.524, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

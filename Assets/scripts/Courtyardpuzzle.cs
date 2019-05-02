@@ -22,22 +22,17 @@ public class Courtyardpuzzle : MonoBehaviour
             newItem = invGameObj.GetComponent<Text>();
             if (newItem.text == "Statue 1" + "Statue 2" + "Statue 3")
             {
+                theControllerScript.deletePosition += 1;
                 newItem.text = "";
+                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "Statue 1" + "Statue 2" + "Statue 3";
+                Destroy(gameObject);
             }
 
             else
             {
-                Debug.Log("NONE OF THE STATUES ARE COLLECTED");
+                Debug.Log("nope");
             }
 
         }
-        for (int i = 0; i < 10; i++)
-        {
-            if (theControllerScript.ItemsinInventory[i] == "Statue 1" + "Statue 2" + "Statue 3")
-            {
-                theControllerScript.ItemsinInventory[i] = "";
-            }
-        }
-
     }
 }
