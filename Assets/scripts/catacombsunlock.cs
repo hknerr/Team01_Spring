@@ -43,7 +43,7 @@ public class catacombsunlock : MonoBehaviour
         {
             if (theControllerScript.ItemsinInventory[i] == "skeleton key")
             {
-                theControllerScript.ItemsinInventory[i] = "";
+                theControllerScript.ItemsinInventory[i] = null;
             }
         }
 
