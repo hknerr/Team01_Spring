@@ -746,8 +746,6 @@ MonoBehaviour:
   myGameObject: {fileID: 0}
   invGameObj: {fileID: 0}
   itemToDelete: {fileID: 0}
-  theBathtub: {fileID: 0}
-  toggleStatue: {fileID: 0}
 --- !u!82 &379032380
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1131,6 +1129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1285607471}
   - component: {fileID: 1285607472}
+  - component: {fileID: 1285607474}
   - component: {fileID: 1285607473}
   m_Layer: 0
   m_Name: bathtub
@@ -1213,8 +1212,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 559835bf103dd014082b0613372c40fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1285607474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285607470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3ce34b313047b2419b7aa5c97903a89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   objToDisable: {fileID: 0}
-  statuedisabled: 1
 --- !u!1 &1665404737
 GameObject:
   m_ObjectHideFlags: 0
@@ -1618,7 +1628,7 @@ GameObject:
   - component: {fileID: 2038500940}
   - component: {fileID: 2038500941}
   m_Layer: 0
-  m_Name: statue
+  m_Name: bathstatue
   m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
