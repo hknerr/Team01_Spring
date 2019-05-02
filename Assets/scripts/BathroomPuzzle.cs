@@ -24,8 +24,9 @@ public class BathroomPuzzle : MonoBehaviour
             newItem = invGameObj.GetComponent<Text>();
             if (newItem.text == "wrench")
             {
-                newItem.text = "Inventory";
+                newItem.text = "";
             }
+
             else
             {
                 Debug.Log("NO WRENCH");
@@ -33,5 +34,13 @@ public class BathroomPuzzle : MonoBehaviour
             
 
         }
+        for (int i = 0; i < 10; i++)
+        {
+            if (theControllerScript.ItemsinInventory[i] == "wrench")
+            {
+                theControllerScript.ItemsinInventory[i] = "";
+            }
+        }
+
     }
 }
