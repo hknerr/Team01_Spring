@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 236833605}
   - component: {fileID: 236833604}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Menu Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -149,7 +149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -303.3, y: -222.1}
+  m_AnchoredPosition: {x: 394, y: -329}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &236833604
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 236833602}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 770ef082a77ad9e46bc69316387e514a, type: 3}
+  m_Script: {fileID: 11500000, guid: c177a7b6bc4bbfb42b2007777a5130c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &236833605
@@ -200,12 +200,12 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 236833606}
+  m_TargetGraphic: {fileID: 332799019}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 236833604}
-        m_MethodName: GoToStory
+        m_MethodName: GoToMenu
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -324,7 +324,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play
+  m_Text: ' Main Menu
+
+'
 --- !u!222 &332799020
 CanvasRenderer:
   m_ObjectHideFlags: 0
