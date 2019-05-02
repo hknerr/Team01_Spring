@@ -2014,6 +2014,7 @@ GameObject:
   - component: {fileID: 1885805090}
   - component: {fileID: 1885805089}
   - component: {fileID: 1885805088}
+  - component: {fileID: 1885805092}
   - component: {fileID: 1885805091}
   m_Layer: 0
   m_Name: key
@@ -2120,6 +2121,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f65c2448333e48047a8464deee508483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theGameController: {fileID: 0}
+  theControllerScript: {fileID: 0}
+  myText: {fileID: 0}
+  newItem: {fileID: 0}
+  myGameObject: {fileID: 0}
+  invGameObj: {fileID: 0}
+--- !u!114 &1885805092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885805087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d369d5445a8876e44a2452023d8ef31d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   theGameController: {fileID: 0}

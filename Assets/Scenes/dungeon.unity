@@ -1102,7 +1102,7 @@ GameObject:
   - component: {fileID: 761769941}
   - component: {fileID: 761769940}
   m_Layer: 0
-  m_Name: statuette
+  m_Name: Statue 1
   m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
