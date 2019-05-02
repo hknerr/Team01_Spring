@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class changebedroom : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // changes to bedroom attached to bedroom door
     private void OnMouseDown()
     {
         SceneManager.LoadScene("bedroom");

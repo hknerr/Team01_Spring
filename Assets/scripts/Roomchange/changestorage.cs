@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 //John Hangen
 public class changestorage : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Changes scene to storage attached to storage door
     private void OnMouseDown()
     {
         SceneManager.LoadScene("storage");

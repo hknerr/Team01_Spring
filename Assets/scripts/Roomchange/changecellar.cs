@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 //Christa
 public class changecellar : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // changes to cellar attached to cellar door
     private void OnMouseDown()
     {
         SceneManager.LoadScene("cellar");

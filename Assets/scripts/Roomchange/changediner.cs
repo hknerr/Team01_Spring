@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class changediner : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // changes to diner scene attached to diner door and courtyard exit door
     private void OnMouseDown()
     {
         SceneManager.LoadScene("diner");

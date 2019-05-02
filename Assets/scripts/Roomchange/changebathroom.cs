@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 //Hunter
 public class changebathroom : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // changes to bathroom door
     private void OnMouseDown()
     {
         SceneManager.LoadScene("bathroom");
