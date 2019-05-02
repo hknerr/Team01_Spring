@@ -25,7 +25,6 @@ public class DungeonPuzzle : MonoBehaviour
             {
                 newItem.text = "Inventory";
                 Destroy(gameObject);
-                Destroy(invGameObj);
             }
             else
             {
