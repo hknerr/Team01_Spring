@@ -14,10 +14,11 @@ public class GameControlScript : MonoBehaviour
 
     public int invposition = 0;
     public int deletePosition = 0;
+    public int statueinvposition = 0;
 
     public string[] ItemsinInventory = new string[10];
     public string[] ItemsToDelete = new string[15];
-
+    public string[] StatuesInInventory = new string[2];
 
 
     void Awake()

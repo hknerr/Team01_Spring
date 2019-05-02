@@ -8,7 +8,7 @@ public class disableStatue : MonoBehaviour
 
     private void Start()
     {
-        objToDisable = GameObject.Find("bath statue");
+        objToDisable = GameObject.Find("Statue 2");
         objToDisable.transform.localPosition = new Vector2(20, 20);
     }
 }

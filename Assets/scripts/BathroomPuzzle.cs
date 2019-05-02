@@ -36,7 +36,8 @@ public class BathroomPuzzle : MonoBehaviour
 
 
                 theStatue = GameObject.Find("Statue 2");
-                theStatue.transform.localPosition = new Vector2(-1.2f, -.044f);
+                theStatue.transform.localPosition = new Vector2(1.75f, 1.4f);
+
             }
 
             else
