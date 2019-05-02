@@ -23,13 +23,17 @@ public class DungeonPuzzle : MonoBehaviour
             newItem = invGameObj.GetComponent<Text>();
             if (newItem.text == "lockpick")
             {
-                newItem.text = "Inventory";
+                theControllerScript.deletePosition += 1;
+                newItem.text = "";
+                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "lockpick";
                 Destroy(gameObject);
             }
+
             else
             {
                 Debug.Log("nope");
             }
+
         }
     }
 }

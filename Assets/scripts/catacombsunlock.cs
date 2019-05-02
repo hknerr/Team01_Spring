@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class catacombpuzzle : MonoBehaviour
+public class catacombsunlock : MonoBehaviour
 {
     public GameObject theGameController;
     public GameControlScript theControllerScript;
@@ -12,12 +12,9 @@ public class catacombpuzzle : MonoBehaviour
     public GameObject myGameObject;
     public GameObject invGameObj;
     public GameObject itemToDelete;
+    public GameObject theStatue;
 
-    void Start()
-    {
-        // Hide skull
-        GameObject.Find("skullhead").transform.localPosition = new Vector3(100, 100, 0);
-    }
+
     private void OnMouseDown()
     {
         theGameController = GameObject.Find("GameController");
@@ -28,28 +25,23 @@ public class catacombpuzzle : MonoBehaviour
         {
             invGameObj = GameObject.Find("Canvas/Vertical Panel/Inventory" + (i + 1));
             newItem = invGameObj.GetComponent<Text>();
-            if (newItem.text == "skull")
+            if (newItem.text == "skeleton key")
             {
                 theControllerScript.deletePosition += 1;
                 newItem.text = "";
-                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "skull";
-
-                // Show skull
-                GameObject.Find("skullhead").transform.localPosition = new Vector3(0.16f, -2.11f, 0f);
-
-                itemToDelete = GameObject.Find("cellar door locked");
-                GameObject.Destroy(itemToDelete);
+                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "skeleton key";
+                Destroy(gameObject);
             }
 
             else
             {
-                Debug.Log("hhh");
+                Debug.Log("no skeleton key");
             }
 
         }
         for (int i = 0; i < 10; i++)
         {
-            if (theControllerScript.ItemsinInventory[i] == "skull")
+            if (theControllerScript.ItemsinInventory[i] == "skeleton key")
             {
                 theControllerScript.ItemsinInventory[i] = "";
             }
