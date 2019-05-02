@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 //Brandon Salter
+//Nick
 //this script is used to complete the statue puzzle in the bedroom
 public class Bedroompuzzle : MonoBehaviour
 {
@@ -29,26 +30,14 @@ public class Bedroompuzzle : MonoBehaviour
                 theControllerScript.deletePosition += 1;
                 newItem.text = "";
                 theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "screw driver";
-
-                itemToDelete = GameObject.Find("Statue 3");
-                GameObject.Destroy(itemToDelete);
+                Destroy(gameObject);
             }
-
 
             else
             {
-                Debug.Log("NO SCREWDRIVER");
+                Debug.Log("nope");
             }
 
-
         }
-        for (int i = 0; i < 10; i++)
-        {
-            if (theControllerScript.ItemsinInventory[i] == "screw driver")
-            {
-                theControllerScript.ItemsinInventory[i] = "";
-            }
-        }
-
     }
 }
