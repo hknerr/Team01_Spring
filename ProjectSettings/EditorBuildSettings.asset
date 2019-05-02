@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/library.unity
     guid: 52555262d03f1f543bff780631b68be0
   - enabled: 1
+    path: Assets/Scenes/librar.unity
+    guid: 268a7b23859100e41a8a71de2ea79382
+  - enabled: 1
     path: Assets/Scenes/bedroom.unity
     guid: b59a5cb0c72843b41b090fd5ad5efea8
   - enabled: 1
