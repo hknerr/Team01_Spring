@@ -1188,8 +1188,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -668423893
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0c1f8058768fb154ca4f031be3c245ef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1630,7 +1630,7 @@ GameObject:
   - component: {fileID: 2038500940}
   - component: {fileID: 2038500941}
   m_Layer: 0
-  m_Name: bathstatue
+  m_Name: bath statue
   m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

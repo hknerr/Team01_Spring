@@ -13,7 +13,8 @@ public class BathroomPuzzle : MonoBehaviour
     public GameObject invGameObj;
     public GameObject itemToDelete;
     public GameObject theStatue;
-    public GameObject theSpout;
+   
+
     private void OnMouseDown()
     {
         theGameController = GameObject.Find("GameController");
@@ -33,8 +34,9 @@ public class BathroomPuzzle : MonoBehaviour
                 itemToDelete = GameObject.Find("bathtub");
                 GameObject.Destroy(itemToDelete);
 
-                theStatue = 
-                theStatue.SetActive(true);
+
+                theStatue = GameObject.Find("bath statue");
+                theStatue.transform.localPosition = new Vector2(-1.2f, -.044f);
             }
 
             else
