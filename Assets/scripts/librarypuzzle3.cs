@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//Brandon Salter
-//metal grate bars
-//this script is used to complete the final puzzle in the library
-public class Librarypuzzle : MonoBehaviour
-  {
+//Brandon
+//door 3
+//this script is to make sure the person playing the game has found the statues around the rooms
+public class librarypuzzle3 : MonoBehaviour
+{
     public GameObject theGameController;
     public GameControlScript theControllerScript;
     public Text myText;
@@ -22,18 +22,18 @@ public class Librarypuzzle : MonoBehaviour
         {
             invGameObj = GameObject.Find("Canvas/Vertical Panel/Inventory" + (i + 1));
             newItem = invGameObj.GetComponent<Text>();
-            if (newItem.text == "vault key")
+            if (newItem.text == "Statue 2")
             {
 
                 theControllerScript.deletePosition += 1;
                 newItem.text = "";
-                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "vault key";
+                theControllerScript.ItemsToDelete[theControllerScript.deletePosition - 1] = "Statue 2";
                 Destroy(gameObject);
             }
 
             else
             {
-                Debug.Log("find the vault key");
+                Debug.Log("find staute 2");
             }
 
         }
