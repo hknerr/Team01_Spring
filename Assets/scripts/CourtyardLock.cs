@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 //christian
+// code that would of unlocked the door for courtyard but was scraped
 public class CourtyardLock : MonoBehaviour
 {
     public GameObject theGameController;

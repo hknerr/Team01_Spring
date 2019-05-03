@@ -2,7 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//christian
+/// <summary>
+/// Christans code
+/// Puzzle for the bottle to get the key out of it
+/// Bottle and corkscrew
+/// </summary>
+
 public class BottleScript : MonoBehaviour
 {
     public GameObject theGameController;

@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Nicks code
+/// Hunters code
+/// Used for the dungeon puzzle
+/// attached to a fake door that is removed
+/// </summary>
+
 public class DungeonPuzzle : MonoBehaviour
 {
     public GameObject theGameController;

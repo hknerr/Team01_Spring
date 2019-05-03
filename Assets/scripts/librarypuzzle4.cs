@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+//nicks
 //Brandon
 //door 4
 //this script is to make sure the person playing the game has found the statues around the rooms

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//useless code
+
 public class disableStatue : MonoBehaviour
 {
     public GameObject objToDisable;

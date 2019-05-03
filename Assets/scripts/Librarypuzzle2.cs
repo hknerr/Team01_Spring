@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 //Brandon
 //door 2
+//nick
 //this script is to make sure the person playing the game has found the statues around the rooms
 public class Librarypuzzle2 : MonoBehaviour
 {

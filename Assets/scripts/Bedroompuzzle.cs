@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 //Brandon Salter
 //Nick
-//this script is used to complete the statue puzzle in the bedroom
+//this script is used to complete the statue puzzle in the bedroom which was scraped
 public class Bedroompuzzle : MonoBehaviour
 {
     public GameObject theGameController;

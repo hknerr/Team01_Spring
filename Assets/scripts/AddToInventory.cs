@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+//Hunters code
+//Basic add items to our inventory
 
 public class AddToInventory : MonoBehaviour
 {

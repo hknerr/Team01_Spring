@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 //christian
+//unlocks the kitchen door
+//attached to kitchen door in cellar
 public class KitchenLock : MonoBehaviour
 {
     public GameObject theGameController;

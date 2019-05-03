@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+/// <summary>
+/// Nicks code
+/// Hunters code
+/// Makes it so that that user has to click on objects to remove the bars to unlock the door and get the key
+/// </summary>
 public class catacombsunlock : MonoBehaviour
 {
     public GameObject theGameController;

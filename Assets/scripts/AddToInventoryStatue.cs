@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+/// <summary>
+/// code no longer in use, or last min feature that didnt make it
+/// </summary>
+
 
 public class AddToInventoryStatue : MonoBehaviour
 {

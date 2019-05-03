@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Hunters code
+/// Used to drain the tub and get the statue within the tub
+/// attached to tub
+/// </summary>
 public class BathroomPuzzle : MonoBehaviour
 {
     public GameObject theGameController;

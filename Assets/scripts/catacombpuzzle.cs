@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Nicks code
+/// Catacombs puzzle for the skull head
+/// attached to skull head
+/// </summary>
+
 public class catacombpuzzle : MonoBehaviour
 {
     public GameObject theGameController;

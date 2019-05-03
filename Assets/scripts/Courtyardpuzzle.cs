@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+//useless code
 public class Courtyardpuzzle : MonoBehaviour
 {
     public GameObject theGameController;

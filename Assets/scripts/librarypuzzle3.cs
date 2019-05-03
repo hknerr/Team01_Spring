@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 //Brandon
+//nick
 //door 3
 //this script is to make sure the person playing the game has found the statues around the rooms
 public class librarypuzzle3 : MonoBehaviour
