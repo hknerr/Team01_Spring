@@ -548,7 +548,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666630777}
   m_LocalRotation: {x: 0.007714141, y: -0.13251412, z: 0.05760109, w: -0.989476}
-  m_LocalPosition: {x: 8.24, y: -1.01, z: 0.43}
+  m_LocalPosition: {x: 8.07, y: -1.07, z: 0.47}
   m_LocalScale: {x: 0.200688, y: 0.21788193, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -679,7 +679,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700338715}
   m_LocalRotation: {x: -0, y: -0.1685089, z: -0, w: 0.98570013}
-  m_LocalPosition: {x: -9.23, y: -1.52, z: 0.12}
+  m_LocalPosition: {x: -8.17, y: -1.49, z: 0.48}
   m_LocalScale: {x: 0.22846687, y: 0.22692749, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1255,8 +1255,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322324200}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.039, y: 0.042, z: 1.15}
-  m_LocalScale: {x: 2.1765802, y: 1.5165312, z: 1}
+  m_LocalPosition: {x: -0.965, y: 0.042, z: 1.15}
+  m_LocalScale: {x: 2.4247756, y: 1.5165312, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -1519,7 +1519,6 @@ GameObject:
   - component: {fileID: 1863744379}
   - component: {fileID: 1863744378}
   - component: {fileID: 1863744380}
-  - component: {fileID: 1863744381}
   m_Layer: 0
   m_Name: safe
   m_TagString: E
@@ -1583,7 +1582,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1863744377}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.23, y: -1.26, z: 0}
+  m_LocalPosition: {x: -11.46, y: -2.22, z: 0}
   m_LocalScale: {x: 0.28064498, y: 0.26988, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1615,25 +1614,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.44, y: 8.69}
   m_EdgeRadius: 0
---- !u!114 &1863744381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1863744377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d618b5045e604a94c9dd299a59d3a5ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theGameController: {fileID: 0}
-  theControllerScript: {fileID: 0}
-  myText: {fileID: 0}
-  newItem: {fileID: 0}
-  myGameObject: {fileID: 0}
-  invGameObj: {fileID: 0}
-  itemToDelete: {fileID: 0}
 --- !u!1 &1894671538
 GameObject:
   m_ObjectHideFlags: 0
@@ -2075,5 +2055,20 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 801666519}
+    - target: {fileID: 7500959858207222859, guid: f37b66dff889bbe40ac19c97d6773674,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500959858207222859, guid: f37b66dff889bbe40ac19c97d6773674,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500959858207222859, guid: f37b66dff889bbe40ac19c97d6773674,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 394.9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f37b66dff889bbe40ac19c97d6773674, type: 3}

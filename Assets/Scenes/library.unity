@@ -977,7 +977,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036529764}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.22, y: 2.39, z: 0}
+  m_LocalPosition: {x: -3.98, y: 2.88, z: 0}
   m_LocalScale: {x: 0.52949005, y: 0.5907972, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1348,8 +1348,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410881473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.008, y: -0.162, z: 0}
-  m_LocalScale: {x: 1.6783938, y: 1.0929381, z: 1}
+  m_LocalPosition: {x: 0.012, y: -0.21, z: 0}
+  m_LocalScale: {x: 2.0360637, y: 1.0929381, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
@@ -1441,7 +1441,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479704113}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.06, y: -2.58, z: 0}
+  m_LocalPosition: {x: 10.21, y: -2.58, z: 0}
   m_LocalScale: {x: 0.29998583, y: 0.3297059, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1961,6 +1961,7 @@ GameObject:
   - component: {fileID: 1642597317}
   - component: {fileID: 1642597316}
   - component: {fileID: 1642597315}
+  - component: {fileID: 1642597318}
   m_Layer: 0
   m_Name: Prison_Cell_Wall_icon
   m_TagString: Untagged
@@ -2056,6 +2057,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1642597318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642597314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f661e3e05d22ee445a3ab0cc70dfa917, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theGameController: {fileID: 0}
+  theControllerScript: {fileID: 0}
+  myText: {fileID: 0}
+  newItem: {fileID: 0}
+  myGameObject: {fileID: 0}
+  invGameObj: {fileID: 0}
 --- !u!1 &1807611862
 GameObject:
   m_ObjectHideFlags: 0
@@ -2292,7 +2311,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2098029261}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.862, y: -2.364, z: 0}
+  m_LocalPosition: {x: -11.47, y: -2.27, z: 0}
   m_LocalScale: {x: 0.259772, y: 0.35123092, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
